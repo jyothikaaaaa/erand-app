@@ -1,0 +1,37 @@
+/* Header Styling */
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background: #6a11cb;
+    color: #fff;
+    padding: 40px 20px;  /* Reduced padding */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header h1 {
+    font-size: 32px;       /* Reduced size */
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    font-size: 16px;        /* Reduced size */
+    max-width: 700px;
+    line-height: 1.5;
+    color: #e0e0e0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .header h1 {
+      font-size: 28px;      /* Adjusted for smaller screens */
+    }
+  
+    .header p {
+      font-size: 14px;
+    }
+  }
+  

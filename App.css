@@ -1,0 +1,91 @@
+/* General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main Layout */
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  max-width: 1200px;
+  width: 100%;
+  background: #ffffff;
+  color: #333;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+  padding: 40px;
+  text-align: center;
+}
+
+.app:hover {
+  transform: scale(1.02);
+}
+
+/* Smooth Transitions */
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #ffde59;
+}
+
+/* Center Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #6a11cb;
+  color: #fff;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo a {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.navbar-links a {
+  color: #fff;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.navbar-links a:hover {
+  color: #ffde59;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+}

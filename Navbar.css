@@ -1,0 +1,44 @@
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6a11cb;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-logo a {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .navbar-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .navbar-links a {
+    color: #fff;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  
+  .navbar-links a:hover {
+    color: #ffde59;
+  }
+  
+  /* Responsive Navbar */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      text-align: center;
+      gap: 10px;
+    }
+  }
+  
